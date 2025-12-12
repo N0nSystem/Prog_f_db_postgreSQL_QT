@@ -21,3 +21,12 @@
   <li>contract_number</li>
   <li>quantity</li>
 </ol>
+ <h3>Программа выполняет SQL запросы,<br>
+ такие как:</h3>
+ <ul>
+  <li><b><i>SELECT * FROM client ORDER BY id</i></b> - запросить у бд список клиентов и отсортировать по id</li>
+  <li><b><i>"INSERT INTO client (full_name, phone, email) " <br>
+    "VALUES ('%1', '%2', '%3')"</i></b> - создать нового клиента используя данные,которые вводит пользователь</li>
+  
+</ul>
+ 
