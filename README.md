@@ -1,4 +1,4 @@
-<h1>Подключение к локальному серверу с БД postgreSQL:</h1> <br>
+<h3>Подключение к локальному серверу с БД postgreSQL:</h3> <br>
 <b>ip</b> - 192.168.0.150<br>
 <b>port</b> - 5432<br>
 Бд имеет таблицы:<br>
@@ -6,14 +6,14 @@
   <li>client</li>
   <li>orders</li>
 </ul>
-<h1>client:</h1>
+<h5>client:</h5>
 <ol>
   <li>id</li>
   <li>full_name</li>
   <li>phone</li>
   <li>email</li>
 </ol>
-<h1>orders:</h1>
+<h5>orders:</h5>
 <ol>
   <li>id</li>
   <li>client_id</li>
